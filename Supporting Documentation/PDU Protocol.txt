@@ -1,0 +1,35 @@
+PDU Beta 5.0.1 protocol instructions.
+
+Ascertaining if the PDU is active in the COM port you are communicating using:
+
+Example:
+
+?<newline> // returns "BS_PDU_MK2:<starting pin number>,<ending pin number><newline>" if PDU is active.
+
+Setting pins:
+
+Currently, you can only set one pin at a time, though this is intended to be expanded upon in later revisions.
+
+Syntax is as follows:
+
+S<Pin Number>,<Value (boolean): 0 or 1)><newline>
+
+Example:
+
+S0,1<newline> // sets the state of pin 0 to 1 (or On), will return 1<newline> in the terminal if successful.
+S1,1<newline> // sets the state of pin 1 to 1 (or On), will return 1<newline> in the terminal if successful.
+S0,0<newline> // sets the state of pin 0 to 0 (or Off), will return 0<newline> in the terminal if successful.
+S1,0<newline> // sets the state of pin 1 to 0 (or Off), will return 0<newline> in the terminal if successful.
+
+Getting pin information:
+
+Currently, you can only get one pin at a time, though this is intended to be expanded upon in later revisions.
+
+Syntax is as follows:
+
+G<Pin Number><newline>
+
+Example:
+
+G0<newline> // gets the state of pin 0, will return 0<newline> if off, or 1<newline> if on in the terminal.
+G1<newline> // gets the state of pin 1, will return 0<newline> if off, or 1<newline> if on in the terminal.

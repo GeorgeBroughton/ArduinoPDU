@@ -1,0 +1,99 @@
+{
+  "AlwaysOnTop":true,
+  "Colors": {
+    "PortOn":"LightGray",
+    "PortOff":"Red"
+  },
+  "Profile": {
+	  "DickTiddy": {
+		  "Pins": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+		  "CheckedValue": "0"
+	  },
+	  "Eyefinity": {
+		  "Pins": [15,14,13],
+		  "CheckedValue": "0"
+	  }
+  },
+  "Ports": {
+    "15": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":15,
+	  "Tooltip":"Top Left"
+	},
+    "14": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":14,
+	  "Tooltip":"Top Middle"
+	},
+    "13": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":13,
+	  "Tooltip":"Top Right"
+	},
+    "12": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":12,
+	  "Tooltip":"Bottom Left"
+	},
+    "11": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":11,
+	  "Tooltip":"Bottom Middle"
+	},
+    "10": {
+	  "Icon":{"File":"Networkexplorer.dll","ID":"11"},
+	  "PinNumber":10,
+	  "Tooltip":"Bottom Right"
+	},
+    "9": {
+	  "Icon":{"File":"setupapi.dll","ID":"16"},
+	  "PinNumber":9,
+	  "Tooltip":"USB Hub"
+	},
+    "8": {
+	  "Icon":{"File":"imageres.dll","ID":"331"},
+	  "PinNumber":8,
+	  "Tooltip":"Desk Lights"
+	},
+    "7": {
+	  "Icon":{"File":"","ID":""},
+	  "PinNumber":7,
+	  "Tooltip":"Soldering Station"
+	},
+    "6": {
+	  "Icon":{"File":"shell32.dll","ID":"195"},
+	  "PinNumber":6,
+	  "Tooltip":"Microscope"
+	},
+    "5": {
+	  "Icon":{"File":"imageres.dll","ID":"144"},
+	  "PinNumber":5,
+	  "Tooltip":"Oscilloscope"
+	},
+    "4": {
+	  "Icon":{"File":"imageres.dll","ID":"30"},
+	  "PinNumber":4,
+	  "Tooltip":"Hard Drive Dock"
+	},
+    "3": {
+	  "Icon":{"File":"","ID":""},
+	  "PinNumber":0,
+	  "Tooltip":"Generic Button 1"
+	},
+    "2": {
+	  "Icon":{"File":"","ID":""},
+	  "PinNumber":1,
+	  "Tooltip":"Generic Button 2"
+	},
+    "1": {
+	  "Icon":{"File":"","ID":""},
+	  "PinNumber":2,
+	  "Tooltip":"Generic Button 3"
+	},
+    "0": {
+	  "Icon":{"File":"","ID":""},
+	  "PinNumber":3,
+	  "Tooltip":"Generic Button 4"
+	}
+  }
+}
